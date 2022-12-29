@@ -20,5 +20,10 @@ function SendMail() {
     }
     emailjs.send("service_yfgscy9", "template_qldeo4d", params).then(function (res){
         alert("Successfully Sent! " + res.status);
-    })
+    });
+    
+    // reset form here, if needed
+    reset();
+
+    return false;
 }
