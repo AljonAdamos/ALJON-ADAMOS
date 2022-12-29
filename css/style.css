@@ -18,7 +18,7 @@
     box-sizing: border-box;
     outline: none; border:none;
     text-decoration: none;
-    text-transform: capitalize;
+    text-transform: none;
     transition: .2s linear;
 }
 
@@ -285,6 +285,45 @@ section{
     line-height: 1.8;
     padding:1rem 0;
 }
+/*  sa certificate  */
+.about .row .cert h3{
+    text-align: center;
+    font-size: 3.8rem;
+    color:var(--dark-white);
+    line-height: 1.8;
+}
+.about .row .cert h3 span{
+    color:var(--blue);
+}
+.about .row .box-container{
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    gap:2rem;
+    box-sizing: border-box;
+}
+.about .row .box-container .certificate{
+    align-items: center;
+    height: 25rem;
+    border-radius: .5rem;
+    overflow:hidden;
+    box-shadow: var(--box-shadow);
+    position: relative;
+    border: none;
+}
+.about .row .box-container .certificate img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.about .row .box-container .certificate:hover{
+    transform: scale(1);
+    transform: scale(1.05, 1.1);
+    -webkit-transform: scale(1.05, 1.1);
+    -ms-transform: scale(1.05, 1.1);
+    -moz-transform: scale(1.05, 1.1);
+    color:var(--blue);
+    cursor: pointer;
+}
 .about .row .skills h3{
     text-align: center;
     font-size: 3.8rem;
@@ -310,7 +349,14 @@ section{
     align-items: center;
     justify-content: space-between;
 }
-
+.about .row .progress h5{
+    color:var(--blue);
+    font-weight: normal;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .about .row .progress .bar{
     box-shadow: var(--box-shadow);
     border-radius: 5rem;
@@ -327,27 +373,27 @@ section{
 }
 
 .about .row .progress .bar-1-1 span{
-    width: 90%;
+    width: 70%;
 }
 
 .about .row .progress .bar-1-2 span{
-    width: 75%;
+    width: 70%;
 }
 
 .about .row .progress .bar-1-3 span{
-    width: 80%;
+    width: 55%;
 }
 
 .about .row .progress .bar-2-1 span{
-    width: 95%;
+    width: 40%;
 }
 
 .about .row .progress .bar-2-2 span{
-    width: 89%;
+    width: 50%;
 }
 
 .about .row .progress .bar-2-3 span{
-    width: 65%;
+    width: 50%;
 }
 .headings{
     text-align:left;
@@ -356,6 +402,9 @@ section{
     text-transform: uppercase;
     padding-bottom: 2rem;
 
+}
+.headings span{
+    color:var(--blue);
 }
 .portfolio .box-container{
     display: grid;

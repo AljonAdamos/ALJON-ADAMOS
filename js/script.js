@@ -11,7 +11,7 @@ window.onscroll = () =>{
     header.classList.remove('active');
 }
 //script.js
-//email section
+// sa email section
 function SendMail() {
     var params = {
         from_name : document.getElementById("fullname").value,
