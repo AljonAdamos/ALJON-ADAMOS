@@ -83,9 +83,9 @@ section{
     position: fixed;
     top:0; left: 0;
     z-index: 999;
-    background: var(--bg-color);
+    background: none;
     width: 30rem;
-    border-right: var(--border);
+    border-right: none;
     height: 50%;
     padding:2rem;
     text-align: center;
@@ -101,8 +101,10 @@ section{
 }
 
 .header .user h3{
+    background: none;
     color:var(--dark-white);
     font-size: 2.5rem;
+    display: block;
 }
 .header .user h3 span{
     color:var(--blue);
@@ -118,16 +120,18 @@ section{
 }
 
 .header .navbar a{
+    background: var(--bg-color);
     display: block;
     margin: 1.5rem 0;
     padding: 2rem;
-    border-radius: 5rem;
+    border-radius: 2.5rem;
     font-size: 2rem;
     box-shadow: var(--box-shadow);
     color:var(--dark-white);
 }
 
 .header .navbar a:hover{
+    background: var(--bg-color);
     box-shadow: var(--box-shadow-inset);
     color: var(--blue);
 }
@@ -146,7 +150,6 @@ section{
     text-align: center;
     color:var(--black);
     background: var(--bg-color);
-    display: none;
 }
 
 #menu-btn:hover{
@@ -330,6 +333,12 @@ section{
     color:var(--dark-white);
     line-height: 1.8;
 }
+.about .row .skills p{
+    text-align: center;
+    font-size: 2rem;
+    color:var(--dark-white);
+    line-height: 1.8;
+}
 .about .row .skills h3 span{
     color:var(--blue);
 }
@@ -405,6 +414,13 @@ section{
 }
 .headings span{
     color:var(--blue);
+}
+.head{
+    text-align: center;
+    font-size: 2rem;
+    color: var(--dark-white);
+    line-height: 1.8;
+
 }
 .portfolio .box-container{
     display: grid;
