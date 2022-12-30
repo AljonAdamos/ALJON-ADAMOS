@@ -501,7 +501,6 @@ input, textarea, button:hover{
 .contact form .box:focus{
     box-shadow: var(--box-shadow-inset);
 }
-
 .credits h3{
     font-size: 2rem;
     text-align: center;
@@ -512,7 +511,7 @@ input, textarea, button:hover{
 .credits h3 span{
     color: var(--blue);
 }
-/* media queries  */
+/* sa media queries  */
 
 @media (max-width:991px){
 
