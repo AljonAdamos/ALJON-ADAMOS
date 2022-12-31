@@ -185,8 +185,8 @@ section{
     position: relative;
     top: 10rem;
     border-radius: 1rem;
-    box-shadow: var(--box-shadow);
     padding:1rem;
+    margin-top: -7.5rem;
 }
 
 .home .share a{
@@ -471,6 +471,54 @@ section{
     font-style: inherit;
 }
 /* contact address */
+.contact .share{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    top: 3rem;
+    border-radius: 1rem;
+    padding:1rem;
+}
+
+.contact .share a{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    box-shadow: var(--box-shadow);
+    margin:.5rem;
+    font-size: 2rem;
+    color:var(--dark-white);
+    border-radius: .5rem;
+}
+
+.contact .share a:hover{
+    box-shadow: var(--box-shadow-inset);
+    color:var(--blue);
+}
+.gmail h3{
+    font-size: 2rem;
+    text-align: center;
+    padding:2.5rem 1rem;
+    margin-top: .5rem;
+    color:var(--dark-white);
+}
+.gmail h4{
+    font-size: 2rem;
+    text-align: center;
+    padding:2.5rem 1rem;
+    margin-top: -5rem;
+    color:var(--dark-white);
+}
+.gmail h3 span{
+    color: var(--blue);
+}
+.gmail h4 span{
+    color: var(--blue);
+}
 .contact form{
     margin:1rem auto;
     max-width: 50rem;
@@ -527,6 +575,8 @@ input, textarea, button:hover{
 .credits h3 span{
     color: var(--blue);
 }
+
+  
 /* sa media queries  */
 
 @media (max-width:991px){
