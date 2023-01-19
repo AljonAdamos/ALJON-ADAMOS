@@ -19,6 +19,8 @@ function SendMail() {
         message : document.getElementById("message").value
     }
     emailjs.send("service_gvepd5c", "template_3v1duct", params).then(function (res) {
-        alert("Successfully Sent! " + res.status);
+        //alert("Successfully Sent! " + res.status);
+        //swal("Successfully Sent!");
+        swal("Successfully Sent!", "Thank You!", "success");
     })
 }
