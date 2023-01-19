@@ -204,7 +204,9 @@ section{
     box-shadow: var(--box-shadow-inset);
     color:var(--blue);
 }
-
+.about h1{
+    padding: 5%;
+}
 .about .row{
     display: grid;
     align-items: center;
@@ -263,6 +265,8 @@ section{
 }
 
 .about .row .content h3{
+    padding-top: 8%;
+    padding-bottom: 5%;
     text-align: center;
     font-size: 3.8rem;
     color:var(--dark-white);
@@ -290,6 +294,7 @@ section{
 }
 /*  sa certificate  */
 .about .row .cert h3{
+    padding-top: 8%;
     text-align: center;
     font-size: 3.8rem;
     color:var(--dark-white);
@@ -299,7 +304,8 @@ section{
     color:var(--blue);
 }
 .about .row .box-container{
-    display: grid;
+    display: flex;
+    justify-content: center;
     grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
     gap:2rem;
     box-sizing: border-box;
@@ -327,6 +333,7 @@ section{
     cursor: pointer; 
 }
 .about .row .skills h3{
+    padding-top: 10%;
     text-align: center;
     font-size: 3.8rem;
     color:var(--dark-white);
@@ -404,6 +411,7 @@ section{
     width: 50%;
 }
 .about .interest h3{
+    padding-top: 8%;
     text-align: center;
     font-size: 3.8rem;
     color:var(--dark-white);
@@ -476,6 +484,9 @@ section{
 .about .rows .progress .bar-2-3 span{
     width: 50%;
 }
+.heading{
+    padding-top: 8%;
+}
 .headings{
     text-align:left;
     font-size: 3.5rem;
@@ -543,6 +554,9 @@ section{
     font-style: inherit;
 }
 /* contact address */
+.contact h1{
+    padding: .5rem .5rem;
+}
 .contact .share{
     display: flex;
     justify-content: center;
@@ -550,7 +564,6 @@ section{
     position: relative;
     top: 3rem;
     border-radius: 1rem;
-    padding:1rem;
 }
 
 .contact .share a{
@@ -596,7 +609,7 @@ section{
     max-width: 50rem;
     border-radius: .5rem;
     box-shadow: var(--box-shadow);
-    padding:2rem;
+    padding: 2rem;
 }
 
 .contact form .box{
@@ -640,7 +653,7 @@ input, textarea, button:hover{
 .credits h3{
     font-size: 2rem;
     text-align: center;
-    padding:2.5rem 1rem;
+    padding: 8rem .5rem;
     margin-top: .10rem;
     color:var(--dark-white);
 }
