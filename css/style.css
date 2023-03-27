@@ -304,7 +304,7 @@ section{
     color:var(--blue);
 }
 .about .row .box-container{
-    display: flex;
+    display: grid;
     justify-content: center;
     grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
     gap:2rem;
@@ -507,14 +507,16 @@ section{
 }
 .portfolio .box-container{
     display: grid;
+    justify-content: center;
     grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
     gap:2rem;
+    box-sizing: border-box;
 
 }
 .portfolio .box-container .box{
     height: 25rem;
     border-radius: .5rem;
-    overflow:hidden;
+    overflow: hidden;
     box-shadow: var(--box-shadow);
     position: relative;
     border:1rem solid transparent;
