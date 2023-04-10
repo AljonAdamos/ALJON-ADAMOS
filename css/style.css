@@ -652,17 +652,16 @@ input, textarea, button:hover{
 .contact form .box:focus{
     box-shadow: var(--box-shadow-inset);
 }
-.credits h3{
-    font-size: 2rem;
-    text-align: center;
-    padding: 8rem .5rem;
-    margin-top: .10rem;
-    color:var(--dark-white);
-}
-.credits h3 span{
+footer {
+    margin-top: 8rem;
+    background-color: #00151d;
     color: var(--blue);
-}
-
+    padding: 30px;
+    text-align: center;
+  }  
+  footer p {
+    margin: 0;
+  }
   
 /* sa media queries  */
 
